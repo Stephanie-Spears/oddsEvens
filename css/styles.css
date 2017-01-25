@@ -1,0 +1,34 @@
+* {
+  list-style: none;
+  text-align: center;
+  font-family: Fredericka the Great;
+}
+
+#evensTitle{
+  font-family: Bungee Shade;
+  font-size: 3em;
+}
+
+#oddsTitle{
+  font-family: Henny Penny;
+  font-size: 3em;
+}
+
+#evensList {
+
+  font-family: Bungee Shade;
+  font-size: 2em;
+}
+
+#oddsList {
+
+  font-family: Henny Penny;
+  font-size: 2em;
+}
+
+h1:hover,h2:hover,h3:hover{
+  -webkit-animation: shake 2s ease;
+  animation: shake 2s ease;
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+}
