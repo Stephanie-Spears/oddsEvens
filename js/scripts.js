@@ -3,9 +3,17 @@ function makeArray(inputNumber, evensArray, oddsArray){
   var array = [];
   for (var i = 0; i <= inputNumber; i++){
     array[i] = i;
+    if((array[i] % 2) === 0){
+      evensArray.push(array[i]);
+    }
+    else{
+      oddsArray.push(array[i]);
+    }
   }
   return array;
 }
+
+
 
 
 
@@ -14,8 +22,9 @@ $(document).ready(function(){
     event.preventDefault();
 
     var inputNumber = parseInt($("#input").val());
-    var array = makeArray(inputNumber);
+    var evensArray = [];
+    var oddsArray = [];
+    makeArray(inputNumber, evensArray, oddsArray);
 
-    });
   });
 });
