@@ -26,7 +26,7 @@ This is a application that takes a user-supplied integer and outputs two arrays:
 
 ## GitHub Pages link
 
-See this application on GitHub Pages [here](https://stephanie-spears.github.io/oddsEven).
+See this application on GitHub Pages [here](https://stephanie-spears.github.io/oddsEvens).
 
 ## Support and contact details
 
