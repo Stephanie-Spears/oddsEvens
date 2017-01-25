@@ -1,6 +1,10 @@
 * {
   list-style: none;
   text-align: center;
+}
+
+.section, .jumbotron {
+
   font-family: Fredericka the Great;
 }
 
@@ -15,13 +19,11 @@
 }
 
 #evensList {
-
   font-family: Bungee Shade;
   font-size: 2em;
 }
 
 #oddsList {
-
   font-family: Henny Penny;
   font-size: 2em;
 }
