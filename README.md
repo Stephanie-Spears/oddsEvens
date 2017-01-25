@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a web application that takes a user-supplied integer and outputs two arrays: one array of odd numbers between 0 and the specified integer, and one array of all even numbers between 0 and the specified integer. It displayes the two arrays in separate unordered lists on the same page as the user input.
+This is a application that takes a user-supplied integer and outputs two arrays: one array of odd numbers between 0 and the specified integer, and one array of all even numbers between 0 and the specified integer. It displayes the two arrays in separate unordered lists on the same page as the user input.
 
 ## Specifications
 
@@ -17,6 +17,7 @@ This is a web application that takes a user-supplied integer and outputs two arr
   * _Example Input: 5_
   * _Example Output: [1,3,5], [2, 4]_
 
+* Clear fields when the user enters a new number, or clicks the "clear" button
 
 ## Setup/Installation Requirements
 
