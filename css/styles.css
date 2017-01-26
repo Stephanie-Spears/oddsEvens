@@ -40,8 +40,6 @@ h1:hover,h2:hover,h3:hover{
 #evensList li:hover {
   -webkit-animation: bounceOutDown;
   animation: bounceOutDown;
-
-
 }
 #oddsList li:hover {
   -webkit-animation: bounce;
